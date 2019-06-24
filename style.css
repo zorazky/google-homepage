@@ -1,0 +1,80 @@
+#logo {
+    height:  92px;
+    width: 272px;
+    padding-top:109px;
+    -webkit-center:center;
+}
+
+.center {
+    text-align: center;
+}
+
+.RNNXgb {
+    background: #fff;
+    display: flex;
+    border-radius: 8px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 582px;
+    margin-top:40px;
+}
+
+.RNNXgb:hover{
+    box-shadow: rgba(32, 33, 36, 0.28) 0px 1px 6px 0px;
+}
+
+.gLFyf {
+    background-color: transparent;
+    border: none;
+    margin-left: 20px;
+    padding-top:10px;
+    margin-right:40px;
+    
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: 0px;
+
+    font: 16px arial,sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+}
+
+.button {
+    height: 36px;
+    line-height: 27px;
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+    margin-top:30px;
+}
+
+.button:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+}
+
+.hb2Smf {
+    background: url(//www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png) 0 0 no-repeat;
+    height: 24px;
+    width: 24px;
+    background-size: 24px;
+    vertical-align: middle;
+}
