@@ -78,3 +78,55 @@
     background-size: 24px;
     vertical-align: middle;
 }
+
+a {
+    font-size: 13px;
+    font-family: 'Arial', sans-serif;
+    color: #222;
+    text-decoration: none;
+    opacity: .85;
+    padding-left:15px;
+}
+
+a:hover {
+    text-decoration:underline ;
+}
+.container {
+    position: relative;
+}
+
+.bar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bar_top {
+    position: fixed;
+    margin-top:16px;
+    
+    
+}
+
+.bar_bottom {
+    position: absolute;
+    bottom:0;
+    height: 40px;
+    background-color: #f2f2f2;
+}
+
+
+.left {
+    display: block;
+    margin-right: 35px;
+}
+
+.right {
+    display: block;
+    margin-right: 35px;
+}
+
+
+
+
