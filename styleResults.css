@@ -106,3 +106,10 @@ a {
     margin: 0;
     padding: 0 15px;
 }
+
+#nav a.active {
+    color: #1a73e8;
+    border-bottom: 3px solid #1a73e8;
+    font-weight: bold;
+    padding-bottom:10px;
+}
