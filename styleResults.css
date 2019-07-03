@@ -113,3 +113,56 @@ a {
     font-weight: bold;
     padding-bottom:10px;
 }
+
+#main {
+    width: 640px;
+    margin-left: 150px;
+}
+
+#result-stats {
+    line-height: 43px;
+    padding-left: 16px;
+    padding-right: 8px;
+    font-size: small;
+    color: #777;
+}
+
+#main-result {
+    border: 1px solid #e4e4e4;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 26px;
+}
+
+#main-result a {
+    display: flex;
+    flex-direction: column-reverse;
+    margin:0;
+}
+
+#main-result a cite {
+    font-size:14px;
+    line-height: 1.43;
+    padding-top:1px;
+    padding-bottom:1px;
+    color: #006621;
+    font-style: normal;
+    text-decoration-line: none;
+}
+
+.result-big {
+    font-size:16px;
+    line-height: 1.375;
+    padding-bottom: 15px;
+}
+
+#main a {
+    text-decoration:none;
+}
+
+#main-result a h3 {
+    font-size:18px;
+    line-height: 1.33;
+    color: #1a0dab;
+    font-weight: normal;
+}
