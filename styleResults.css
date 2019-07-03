@@ -140,7 +140,7 @@ a {
     margin:0;
 }
 
-#main-result a cite {
+#main-result a cite, .result cite {
     font-size:14px;
     line-height: 1.43;
     padding-top:1px;
@@ -160,9 +160,31 @@ a {
     text-decoration:none;
 }
 
-#main-result a h3 {
+#main-result a h3, .result h3 {
     font-size:18px;
     line-height: 1.33;
     color: #1a0dab;
     font-weight: normal;
+}
+
+.result {
+    padding-left: 16px;
+    margin-bottom: 26px;
+}
+
+.result a {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0;
+}
+
+.result p {
+    line-height: 1.54;
+    color: #545454;
+    word-wrap: break-word;
+    font-size: small;
+}
+
+.fa-caret-down:before {
+    content: "\f0d7";
 }
