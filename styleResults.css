@@ -188,3 +188,44 @@ a {
 .fa-caret-down:before {
     content: "\f0d7";
 }
+
+#pagination {
+    width: 325px;
+    display:block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+#pagination img{
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
+
+ul.pagination-list {
+    margin: 5px 0 0 49px;
+}
+
+ul {
+    list-style: none;
+}
+
+.pagination-list li {
+    display: inline;
+    font-size: 14px;
+}
+
+.pagination-list li a {
+    margin-right: 7px;
+    margin-left: 0;
+    color: #4285f4;
+    text-decoration: none;
+}
+
+.pagination-list li.first a{
+    color: #444;
+}
+
+.right {
+    float: right;
+}
